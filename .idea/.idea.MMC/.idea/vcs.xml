@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../Mac.CarHub" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Mac.Idp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../SOS" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../docs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../graduation/Rehabilitation-Assessment-through-Dimensionality-Reduction-and-Statistical-Modeling" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../graduation/STGCN-rehab" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../graduation/UI-PRMD-Analysis" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../graduation/automatic_evaluation_of_physical_therapy_exercises_based_on_deep_learning" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../graduation/ui-prmd-python" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../test/mac-saha-apis" vcs="Git" />
+  </component>
+</project>

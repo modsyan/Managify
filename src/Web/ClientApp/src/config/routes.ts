@@ -1,0 +1,81 @@
+export const routes = {
+  technicalReports: {
+    create: "/technical-reports/create",
+    list: "/technical-reports",
+    edit: (id: string) => `/technical-reports/${id}/edit`,
+    details: (id: string) => `/technical-reports/${id}`,
+  },
+  repairRequests: {
+    create: "/repair-requests/create",
+    list: "/repair-requests",
+    edit: (id: string) => `/repair-requests/${id}/edit`,
+    details: (id: string) => `/repair-requests/${id}`,
+  },
+  maintenanceRequests: {
+    daily: "/maintenance?type=daily",
+    weekly: "/maintenance?type=weekly",
+    monthly: "/maintenance?type=monthly",
+    quarterly: "/maintenance?type=quarterly",
+    yearly: "/maintenance?type=yearly",
+  },
+  cleaningRequests: {
+    daily: "/cleaning?type=daily",
+    weekly: "/cleaning?type=weekly",
+    monthly: "/cleaning?type=monthly",
+    quarterly: "/cleaning?type=quarterly",
+    yearly: "/cleaning?type=yearly",
+  },
+  qrCode: {
+    create: "/qr-code/create",
+    list: "/qr-code/",
+    edit: (id: string) => `/qr-code/${id}/edit`,
+    details: (id: string) => `/qr-code/${id}`,
+    repair: (id: string) => `/qr-code/${id}/repair`,
+  },
+  users: {
+    create: "/users/create",
+    list: "/users",
+  },
+  levels: {
+    create: "/levels/create",
+    list: "/levels",
+    edit: (id: string) => `/levels/${id}/edit`,
+    details: (id: string) => `/levels/${id}`,
+  },
+  areas: {
+    create: "/areas/create",
+    list: "/areas",
+    edit: (id: string) => `/areas/${id}/edit`,
+    details: (id: string) => `/areas/${id}`,
+  },
+  assets: {
+    create: "/assets/create",
+    list: "/assets",
+    edit: (id: string) => `/assets/${id}/edit`,
+    details: (id: string) => `/assets/${id}`,
+  },
+  assetCategories: {
+    create: "/asset-categories/create",
+    list: "/asset-categories",
+    edit: (id: string) => `/asset-categories/${id}/edit`,
+    details: (id: string) => `/asset-categories/${id}`,
+  },
+  resourceAssets: {
+    create: "/resource-assets/create",
+    list: "/resource-assets",
+    edit: (id: string) => `/resource-assets/${id}/edit`,
+    details: (id: string) => `/resource-assets/${id}`,
+  },
+  resourceAssetTypes: {
+    create: "/resource-asset-types/create",
+    list: "/resource-asset-types",
+    edit: (id: string) => `/resource-asset-types/${id}/edit`,
+    details: (id: string) => `/resource-asset-types/${id}`,
+  },
+  facilities: {
+    create: "/facilities/create",
+    list: "/facilities",
+    edit: (id: string) => `/facilities/${id}/edit`,
+    details: (id: string) => `/facilities/${id}`,
+  },
+};

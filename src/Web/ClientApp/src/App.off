@@ -1,0 +1,25 @@
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
+// import { AuthProvider } from "./context/authContext";
+// import { FormProvider as RepairRequestFormProvider } from "./features/repair-requests/contexts/FormContext";
+// import AppLayout from "./layouts/AppLayout";
+// import { ROUTES } from "./routes";
+// import { CreateRepairRequest } from "./presentation/create-repair-request";
+
+// export default function App() {
+//   return (
+//     <AuthProvider>
+//       <BrowserRouter>
+//         <RepairRequestFormProvider>
+//           <Routes>
+//             <Route element={<AppLayout />}>
+//               <Route
+//                 path={ROUTES.REPAIR_REQUESTS.CREATE}
+//                 element={<CreateRepairRequest />}
+//               />
+//             </Route>
+//           </Routes>
+//         </RepairRequestFormProvider>
+//       </BrowserRouter>
+//     </AuthProvider>
+//   );
+// }
